@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Page</title>
+</head>
+<body>
+    <form action="/editstudent" method="post">
+        Id :<input type="number" name="id" value="<%=student.id%>" readonly> <br>
+        Name :<input type="text" name="name" value="<%=student.name%>" > <br>
+        Marks :<input type="number" name="marks" value="<%=student.marks%>"> <br>
+        <button type="submit" name="btn">UPDATE</button>
+    </form>
+</body>
+</html>
